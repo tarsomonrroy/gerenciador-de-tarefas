@@ -19,8 +19,7 @@ export default function App() {
     <div className="app">
       <header className="app-header">
         <h1 className="app-title">
-          <span className="app-title__icon">✓</span>
-          Gerenciador de Tarefas
+          Fastask - Gerenciador de Tarefas
         </h1>
         <p className="app-subtitle">
           {stats.total === 0
@@ -47,6 +46,10 @@ export default function App() {
           onEdit={editTask}
         />
       </main>
+
+      <footer className="app-footer">
+        © 2026 Tarso Valencia · Todos os direitos reservados.
+      </footer>
     </div>
   )
 }
